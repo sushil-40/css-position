@@ -5,6 +5,7 @@
   min-height: 40vh;
   padding: 1rem;
   font-size: 2rem;
+  position: relative;
 }
 .parent div {
   min-height: 150px;
@@ -15,6 +16,18 @@
 
 .c2 {
   background: green;
+  /* change position from it's oringinal place, don't nreak the document flow   */
+  /* position: relative; */
+
+  /* position: absolute, breaks the document flow, converts into inline element and loooking for parent to position itself */
+  /* position: absolute; */
+
+  position: fixed;
+
+  /* left: 250px; */
+  right: 30px;
+  /* top: 50px; */
+  bottom: 30px;
 }
 
 .c3 {

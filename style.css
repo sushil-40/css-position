@@ -6,14 +6,17 @@
   padding: 1rem;
   font-size: 2rem;
 }
-.c1{
-    background: red;
+.parent div {
+  min-height: 150px;
 }
+.c1 {
+  background: red;
 }
-.c2{
-    background: green
+
+.c2 {
+  background: green;
 }
-}
-.c3{
-    background: blue;
+
+.c3 {
+  background: blue;
 }

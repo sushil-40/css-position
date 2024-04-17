@@ -22,12 +22,14 @@
   /* position: absolute, breaks the document flow, converts into inline element and loooking for parent to position itself */
   /* position: absolute; */
 
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
+  /* when use sticky it works same like fixed but should use top: px value because it uses top value; */
 
   /* left: 250px; */
-  right: 30px;
-  /* top: 50px; */
-  bottom: 30px;
+  /* right: 30px; */
+  top: 0px;
+  /* bottom: 30px; */
 }
 
 .c3 {
